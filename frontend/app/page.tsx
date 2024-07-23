@@ -4,9 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.center}>
-        Autosophia
-      </div>
+      <div className="text-3xl font-bold underline">Autosophia</div>
     </main>
   );
 }
